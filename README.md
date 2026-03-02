@@ -127,6 +127,12 @@ Reverse Connection → Meterpreter Session
 
 ---
 
+# Screenshots
+
+## Meterpreter Session
+
+![Meterpreter Session](screenshots/meterpreter-session.png)
+
 # Disclaimer
 
 This project is created for **educational and ethical hacking practice only**.
