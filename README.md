@@ -132,7 +132,8 @@ Reverse Connection → Meterpreter Session
 ## Meterpreter Session
 
 ![Meterpreter Session](screenshots/meterpreter)
-![Meterpreter Session](screenshots/remote_screenshare)
+## Screenshare
+![Meterpreter Session](screenshots/screenshare)
 
 
 # Disclaimer
