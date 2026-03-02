@@ -1,6 +1,6 @@
 # Meterpreter Reverse Shell Lab
 
-This lab demonstrates how a reverse shell payload works using Metasploit.
+This lab demonstrates how a reverse shell payload works using Metasploit.Everything is perofmed in a Virtual and Controlled Environment.
 
 ⚠️ This lab is strictly for **educational purposes and authorized testing environments only**.
 
@@ -16,7 +16,7 @@ Windows 10 / Windows 11
 
 Tools Used:
 Metasploit Framework
-Python HTTP Server
+
 
 ---
 
@@ -109,9 +109,9 @@ You can interact with the system using Meterpreter commands.
 
 Example:
 
-sysinfo
-getuid
-pwd
+sysinfo,
+getuid,
+pwd,
 ls
 
 ---
