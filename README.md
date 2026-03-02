@@ -1,5 +1,11 @@
 # Meterpreter Reverse Shell Lab
 
+![Platform](https://img.shields.io/badge/platform-Kali%20Linux-blue)
+![Tool](https://img.shields.io/badge/tool-Metasploit-red)
+![Type](https://img.shields.io/badge/type-Reverse%20Shell-orange)
+![Purpose](https://img.shields.io/badge/purpose-Cybersecurity%20Lab-green)
+
+
 This lab demonstrates how a reverse shell payload works using Metasploit.Everything is perofmed in a Virtual and Controlled Environment.
 
 ⚠️ This lab is strictly for **educational purposes and authorized testing environments only**.
